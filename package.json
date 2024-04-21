@@ -1,0 +1,17 @@
+{
+  "name": "node-js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "div": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "data-fns": "^1.1.0",
+    "uuid": "^9.0.1"
+  }
+}
