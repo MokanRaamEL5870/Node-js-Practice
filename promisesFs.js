@@ -10,7 +10,7 @@ const fsOperation = async () => {
         // Write File
         const sampledata = 'Once you have verified all these points, you should have a better understanding of where the issue is occurring.'
         await fsPromises.writeFile(path.join(__dirname,'file','newtext.txt'), sampledata);
-
+        await fsPromises.appendFile(path.join(__dirname,'file','appendedFile.text'), sampledata);
     }catch(err){
         process.on('uncaughtException', err => {
             console.error(`Uncaught Exception: ${err}`);
