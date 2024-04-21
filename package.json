@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "data-fns": "^1.1.0",
+    "date-fns": "^3.6.0",
     "uuid": "^9.0.1"
   }
 }
